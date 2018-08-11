@@ -1,0 +1,108 @@
+@import 'journal.css';
+
+/* buttons edit */
+
+.deleteButton{
+
+    border-color: red;
+    margin:1em;
+    background-color: #f39908;
+    color: rgb(236, 59, 59);
+    /* this gives the border a curved look */
+    border-radius: 5px;
+
+}
+
+.editButton{
+
+    margin:1em;
+    border-color: rgb(38, 255, 0);
+    background-color: lightblue;
+    color:rgb(0, 26, 255);
+    border-radius: 5px;
+}
+
+.entry-card {
+
+    /* width: 1500px; */
+    /* display: flex; */
+        border: solid;
+        border-color: rgb(32, 175, 218);
+        width: 60em;
+        margin: 1em;
+        padding: 1em;
+        flex-wrap: wrap;
+        background-color: lightblue;
+        border-radius: 20px;
+        background: #23D5AB;
+        color: black; 
+        font-weight: 300;
+        text-align: center;
+        font-family: 'Caveat', cursive;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/* form fields wrapper */
+.wrapperInputDOM {    
+        font-family: 'Caveat', cursive;
+        margin: 1em auto;
+        text-align: center;
+        padding: 1em;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: linear-gradient(to bottom, #bae0ff, #2b197b);
+        border-radius: 10px;
+        box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.6);
+}
+
+#saveEntryButton {
+    align-self: center;
+    margin:1em;
+    border-color: rgb(38, 255, 0);
+    background-color: lightblue;
+    color:rgb(0, 26, 255);
+    border-radius: 5px;
+    width: 5%; 
+}
+
+#formContentWrapper {
+    display: flex;
+    flex-direction: column;
+    border: solid goldenrod;
+    align-self: center;
+    /* width: 50%;
+    height: 500px; */
+    justify-content: center;
+    width: 80%;
+    border-radius: 25px;
+}
+
+#formTitle{
+    align-self: center;
+}
+
+#EntryFormWrapper {
+    display: flex;
+    flex-direction: column;
+    border: solid goldenrod;
+    align-self: center;
+    /* width: 50%;
+    height: 500px; */
+    justify-content: center;
+    width: 80%;
+    border-radius: 25px;
+
+}
+
+#entryTitleInput {
+   align-self: center;
+}
+
