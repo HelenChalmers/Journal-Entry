@@ -1,12 +1,18 @@
-//this created an object with 2 functions.  Each function name is the key of that object. 
+"use strict"
+
+//this created an object with 2 functions.  Each function name is the key of that object and the vlue is the actual function.
 
 const FormManager = Object.create(null, {
+
+    //this function clears the form by using (.value ="") of each sections setting it as a blank string
     clearForm: {
         value: () => {
             document.querySelector("#entryTitle").value = ""
             document.querySelector("#entryContent").value = ""
         }
     },
+
+    //this is the html version of the form creation.
     renderEntryForm: {
         value: () => {
             return `<div class = "wrapperInputDOM">

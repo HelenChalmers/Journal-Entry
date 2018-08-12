@@ -16,8 +16,10 @@ function renderContent(data) {
             day: "numeric"
         })}</time>
 </footer>
-        <button class="deleteButton" id="delete--${data.id}">Delete</button>
-        <button class="editButton" id="edit--${data.id}">Edit</button>
+    
+    <button class="editButton" id="edit--${data.id}">Edit</button>    
+    <button class="deleteButton" id="delete--${data.id}">Delete</button>
+        
         </div>
         </div>`
 }

@@ -4,7 +4,7 @@ const ApiObject = Object.create(null, {
 //this saves the content to the API Database once entered in the form.  
     saveJournalEntry: {
         value: (entry) => {
-            
+            //puts the entries to the API Database
             return fetch("http://localhost:8088/entries", {
                 method: "POST",
                 headers: {
@@ -22,7 +22,7 @@ const ApiObject = Object.create(null, {
             .then(response => response.json());
         }
     },
-
+// this deletes the entries in the API
     deleteEntries: {
         value: (ID) => {
             return fetch(`http://localhost:8088/entries/${ID}`,{
